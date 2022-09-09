@@ -4,3 +4,37 @@
     margin-right: auto;
     border: 1px solid #eee;
 }
+
+#header {
+    background-color: aqua;
+    width: 100%;
+    height: 150px;
+}
+
+#nav {
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+}
+
+#main {
+    background-color: beige;
+    float: left;
+    width: 800px;
+}
+
+#elfbar {
+    float: left;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+#main, #elfbar{
+    min-height: 500px;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    background-color: yellowgreen;
+}
